@@ -2,7 +2,7 @@ $primary-color : #444;
 $secondary-color : #1aceee;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
-$backgrounf-opacity: 0.6;
+$backgrounf-opacity: 0.5;
 
 @mixin easeOut {
     transition: all 0.5s ease-out;
