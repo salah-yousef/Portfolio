@@ -1,11 +1,15 @@
 // XLarge screens
 @include mediaXl{
-
+    .projects{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 // Large screens 
 @include mediaLg{
-
+    .projects{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 //  Medium screens 
@@ -58,11 +62,17 @@
         "job3";
         grid-template-columns: 1fr;
     }
+
+    .projects{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 // Small screens
 @include mediaSm{
-   
+    .projects{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 
