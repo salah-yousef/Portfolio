@@ -30,7 +30,7 @@
         min-height: 0;
 
         &.show{
-            transform: matrix3d(0,0,0);
+            transform: translate3d(0,0,0);
         }
 
     }
