@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Responsive Protfolio",
   "main": "index.js",
+  "homepage":"https://salah-yousef.github.io/Portfolio",
   "scripts": {
-    "start": "node-sass -w scss/ -o dist/css --recursive"
+    "start": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy":"gh-pages -d dist"
   },
   "author": "salah",
   "license": "MIT",
